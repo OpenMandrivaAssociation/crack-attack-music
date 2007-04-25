@@ -1,7 +1,11 @@
-Name:		crack-attack-music
+%define name crack-attack-music
+%define version 1
+%define release %mkrel 4
+
 Summary:	Music files for crack-attack
-Version:	1
-Release: 	3mdk
+Name:		%{name}
+Version:	%{version}
+Release: 	%{release}
 Url:		http://www.miguev.net/misc/
 Source0:	%{name}.tar.bz2
 Group:		Games/Arcade

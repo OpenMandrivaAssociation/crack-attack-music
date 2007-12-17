@@ -10,7 +10,6 @@ Url:		http://www.miguev.net/misc/
 Source0:	%{name}.tar.bz2
 Group:		Games/Arcade
 License:	GPL
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	crack-attack >= 1.1.10-5mdk
 BuildArch:	noarch
 

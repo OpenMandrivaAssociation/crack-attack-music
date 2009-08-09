@@ -1,6 +1,6 @@
 %define name crack-attack-music
 %define version 1
-%define release %mkrel 7
+%define release %mkrel 8
 
 Summary:	Music files for crack-attack
 Name:		%{name}

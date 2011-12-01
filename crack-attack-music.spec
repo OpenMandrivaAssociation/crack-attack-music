@@ -25,12 +25,12 @@ This package provides music to enhance the gaming experience.
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT%{_gamesdatadir}/crack-attack/
-cp -a music $RPM_BUILD_ROOT%{_gamesdatadir}/crack-attack/music
+rm -rf %{buildroot}
+mkdir -p %{buildroot}%{_gamesdatadir}/crack-attack/
+cp -a music %{buildroot}%{_gamesdatadir}/crack-attack/music
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)

@@ -1,7 +1,7 @@
 Summary:	Music files for crack-attack
 Name:		crack-attack-music
 Version:	1
-Release: 	19
+Release: 	20
 Group:		Games/Arcade
 License:	GPLv2
 Url:		http://www.miguev.net/misc/

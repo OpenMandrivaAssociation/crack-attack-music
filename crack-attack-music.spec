@@ -4,7 +4,7 @@ Version:	1
 Release: 	24
 Group:		Games/Arcade
 License:	GPLv2
-Url:		http://www.miguev.net/misc/
+Url:		https://www.miguev.net/misc/
 Source0:	%{name}.tar.bz2
 BuildArch:	noarch
 Requires:	crack-attack >= 1.1.10-5mdk
